@@ -41,7 +41,7 @@ import java.io.BufferedOutputStream;
 import java.io.OutputStream;
 
 public class FileChooserModule extends ReactContextBaseJavaModule implements ActivityEventListener {
-    static final int REQUEST_LAUNCH_FILE_CHOOSER = 123456;
+    static final int REQUEST_LAUNCH_FILE_CHOOSER = 12345;
     private final ReactApplicationContext mReactContext;
     private Callback mCallback;
     WritableMap response;
